@@ -20,11 +20,5 @@ public class Exercicio01 {
 
      System.out.println("O aluno: "+nomeAluno+" teve a media igual: "+media);
 
-
-
-
-
-
-
-    leitor.close();}
+leitor.close();}
 }
