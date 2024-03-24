@@ -1,8 +1,6 @@
 public class Loja {
 private Double produto;
 
-
-
 public Loja(double produto){
     this.produto=produto;
 } 
