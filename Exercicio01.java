@@ -13,9 +13,9 @@ public class Exercicio01 {
      double nota3=leitor.nextDouble();
       
      Aluno01 aluno= new Aluno01( nome, nota1,nota2, nota3);
-
+     
      double media= aluno.calcularMedia();
-  
+
      String nomeAluno= aluno.getNome();
 
      System.out.println("O aluno: "+nomeAluno+" teve a media igual: "+media);
