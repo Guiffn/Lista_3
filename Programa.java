@@ -6,6 +6,8 @@ public static void main(String[] args) {
    //Exercicio03.executar();
    //Exercicio04.executar();
    //Exercicio05.executar();
-   Exercicio06.executar();
+   //Exercicio06.executar();
+   Exercicio07.executar();
+   
   }
 }
