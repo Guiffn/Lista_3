@@ -9,6 +9,7 @@ public static void main(String[] args) {
    //Exercicio06.executar();
    //Exercicio07.executar();
    //Exercicio08.executar();
-   Exercicio09.executar();
+   //Exercicio09.executar();
+   Exercicio10.executar();
   }
 }
