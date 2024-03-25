@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Exercicio09{
+   
     public static void executar(){
      Scanner leitor = new Scanner(System.in);
      Calculadora calculadora= new Calculadora();

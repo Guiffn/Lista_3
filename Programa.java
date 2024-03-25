@@ -10,6 +10,7 @@ public static void main(String[] args) {
    //Exercicio07.executar();
    //Exercicio08.executar();
    //Exercicio09.executar();
-   Exercicio10.executar();
+   //Exercicio10.executar();
+   Exercicio11.executar();
   }
 }
