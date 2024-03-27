@@ -5,12 +5,12 @@ public class Perfil {
 
 
 
-public void adicionarInfo(String sexo, String saude,int idade){
+public void adicionarInfo(String nome,String sexo, String saude,int idade){
     if(sexo.equals("H") && idade ==18 && saude.equals("boa") ){
-        System.out.println("O candidato esta apto a servir");
+        System.out.println("O candidato "+nome+"esta apto a servir");
         apto++;
       }else{
-          System.out.println("O candidato esta dispensado dos serviços militares");
+          System.out.println("O candidato "+nome+" esta dispensado dos serviços militares");
           inapto++;
       }
 }

@@ -19,7 +19,7 @@ public class Exercicio13{
       System.out.println("Digite saude (boa/ruim):");
       String saude=leitor.nextLine();
 
-      perfil.adicionarInfo(sexo, saude, idade);
+      perfil.adicionarInfo(nome,sexo, saude, idade);
       }
       perfil.contaTotal();
       

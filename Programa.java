@@ -13,7 +13,7 @@ public static void main(String[] args) {
    //Exercicio10.executar();
    //Exercicio11.executar();
    //Exercicio12.executar();
-   Exercicio13.executar();
-
+   //Exercicio13.executar();
+     Exercicio14.executar();
   }
 }
