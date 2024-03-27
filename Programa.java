@@ -12,7 +12,8 @@ public static void main(String[] args) {
    //Exercicio09.executar();
    //Exercicio10.executar();
    //Exercicio11.executar();
-   Exercicio12.executar();
+   //Exercicio12.executar();
+   Exercicio13.executar();
 
   }
 }
