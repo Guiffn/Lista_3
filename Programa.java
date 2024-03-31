@@ -16,6 +16,7 @@ public static void main(String[] args) {
    //Exercicio13.executar();
    //Exercicio14.executar();
    //Exercicio15.executar();
-   Exercicio16.executar();
+   //Exercicio16.executar();
+   Exercicio17.executar();
   }
 }
