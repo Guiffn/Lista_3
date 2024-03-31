@@ -1,8 +1,9 @@
 import java.util.Scanner;
 public class Exercicio18{
     public static void executar(){
+        Abono abono=new Abono();
      Scanner leitor = new Scanner(System.in);
-     Abono abono=new Abono();
+     
     
      System.out.println("Digite o nome: ");
      String nome=leitor.nextLine();
