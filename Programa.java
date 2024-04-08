@@ -1,7 +1,11 @@
+
+
+import br.edu.up.Exercicios.Exercicio01;
+
 public class Programa {
 
 public static void main(String[] args) {
-   //Exercicio01.executar();   
+   Exercicio01.executar();   
    //Exercicio02.executar();
    //Exercicio03.executar();
    //Exercicio04.executar();
@@ -26,7 +30,7 @@ public static void main(String[] args) {
    //Exercicio23.executar();
    //Exercicio24.executar();
    //Exercicio25.executar();
-   Exercicio26.executar();
+   //Exercicio26.executar();
    
   }
 }
