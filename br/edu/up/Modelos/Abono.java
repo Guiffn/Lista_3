@@ -1,6 +1,6 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Abono {
-public double acrescimo;
+private double acrescimo;
 
 public void acrescimoSalarial(String nome,String sexo,int idade, Double salario){
     System.out.println(""+sexo);

@@ -1,42 +1,39 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
 import java.util.Scanner;
 
-import br.edu.up.Modelos.DescontoCalculator;
+import br.edu.up.modelos.CarangoVelho;
 
 public class Exercicio12 {
     public static void executar() {
         Scanner leitor = new Scanner(System.in);
-        int totalCarrosAte2000 = 0;
-        int totalGeral = 0;
+        
+        CarangoVelho carangoVelho=new CarangoVelho();
+        
+         System.out.println("Digite o ano do carro");
+         int ano=leitor.nextInt();   
+         System.out.println("Digite o valor do carro");
+         double valor=leitor.nextDouble(); 
+         carangoVelho.calcularDesconto(ano, valor);
+         String condi;
 
-        char continuar;
-
-        do {
-            System.out.print("Digite o ano do carro: ");
-            int ano = leitor.nextInt();
-
-            System.out.print("Digite o preço do carro: ");
-            double preco = leitor.nextDouble();
-
-            double desconto = DescontoCalculator.calcularDesconto(ano);
-            double valorDesconto = preco * desconto;
-            double precoComDesconto = preco - valorDesconto;
-
-            System.out.printf("Desconto: R$%.2f\n", valorDesconto);
-            System.out.printf("Valor a ser pago pelo cliente: R$%.2f\n", precoComDesconto);
-
-            if (ano <= 2000) {
-                totalCarrosAte2000++;
-            }
-            totalGeral++;
-
-            System.out.print("Deseja continuar calculando desconto? (S/N): ");
-            continuar = leitor.next().charAt(0);
-        } while (continuar == 'S' || continuar == 's');
-
-        System.out.println("Total de carros até o ano 2000: " + totalCarrosAte2000);
-        System.out.println("Total geral de carros: " + totalGeral);
-
+         leitor.nextLine();
+        
+         do{
+           System.out.println("Vc quer continuar calculando, digite( continuar):");
+               condi=leitor.nextLine();
+               if (condi.equals("continuar")){
+                System.out.println("Digite o ano do carro");
+                ano=leitor.nextInt(); 
+                System.out.println("Digite o valor do carro");
+                valor=leitor.nextDouble();
+                carangoVelho.calcularDesconto(ano, valor);
+                leitor.nextLine();
+            } 
+         }while(condi.equals("continuar"));
+       
+         carangoVelho.exibirTotais();
+         System.out.println("Fim");
+      
         leitor.close();
     }
 }

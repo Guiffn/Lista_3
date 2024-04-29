@@ -1,4 +1,4 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Aluno {
     private String nome;
     private double nota1;

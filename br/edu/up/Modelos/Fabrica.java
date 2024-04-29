@@ -1,14 +1,22 @@
-package br.edu.up.Modelos;
-public class Fabrica{
+package br.edu.up.modelos;
 
-public static final double imposto=0.28;
-public static final double distribuidor=0.45;
+public class Fabrica {
+    private double custo;
 
-public static double calculaCunsumidor(double custo){
-    double valorImposto= (imposto*custo)+custo;
-    double valorDistribuidor= (distribuidor*custo)+custo;
-    return valorDistribuidor+valorImposto;
-}
+    public double getCusto() {
+        return custo;
+    }
 
+    public void setCusto(double custo) {
+        this.custo = custo;
+    }
 
+    public static final double imposto = 0.28;
+    public static final double distribuidor = 0.45;
+
+    public double calculaConsumidor() {
+        double valorImposto = (imposto * custo) + custo;
+        double valorDistribuidor = (distribuidor * custo) + custo;
+        return valorDistribuidor + valorImposto;
+    }
 }

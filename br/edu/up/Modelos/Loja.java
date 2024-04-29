@@ -1,8 +1,10 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Loja {
 private Double produto;
-
-public Loja(double produto){
+public Double getProduto(){
+    return this.produto;
+}
+public void setProduto (double produto){
     this.produto=produto;
 } 
 

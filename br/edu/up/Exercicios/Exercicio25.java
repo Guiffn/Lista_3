@@ -1,7 +1,7 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
 import java.util.Scanner;
 
-import br.edu.up.Modelos.EstudanteComputacao;
+import br.edu.up.modelos.EstudanteComputacao;
 public class Exercicio25{
     public static void executar(){
      Scanner leitor = new Scanner(System.in);

@@ -1,21 +1,27 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
 import java.util.Scanner;
 
-import br.edu.up.Modelos.Vendedor;
+import br.edu.up.modelos.Vendedor;
 public class Exercicio03 {
     public static void executar(){
      Scanner leitor = new Scanner(System.in);
-
+     Vendedor vendedor= new Vendedor();
+     
      System.out.println("Digite o nome do vendedor: ");
-     String nome=leitor.nextLine();
+     String nome=leitor.nextLine();  
+     vendedor.setNome(nome);
+
      System.out.println("Digite o salario: ");
      double salario =leitor.nextDouble();
+     vendedor.setSalario(salario);
+
      System.out.println("Digite o total de vendas efetuadas ");
      int vendas =leitor.nextInt();
+     vendedor.setVendas(vendas);
 
-     Vendedor profissional= new Vendedor( nome,salario, vendas);
-     double salarioFinal=profissional.calculoSalario();
-     String nomevendedor=profissional.getNome();
+  
+     double salarioFinal= vendedor.calculoSalario();
+     String nomevendedor= vendedor.getNome();
 
      System.out.println("O vendedor: "+nomevendedor+" tem um salario final de: "+salarioFinal);
 

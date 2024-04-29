@@ -1,4 +1,4 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Calculadora{
 private int contador;
 public void adicionarNumero(int numero){

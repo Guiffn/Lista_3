@@ -1,4 +1,4 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class GrupoRisco {
 
     public void calculaGrupo(String risco,String nome,double idade){

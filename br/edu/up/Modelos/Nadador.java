@@ -1,4 +1,4 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Nadador {
 
 public void classificarNadador(int idade){

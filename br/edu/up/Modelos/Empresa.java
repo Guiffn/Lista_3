@@ -1,6 +1,6 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Empresa {
-    public Double reajuste;
+    private Double reajuste;
 
 
 public void calculoSalario(Double salario, int i){

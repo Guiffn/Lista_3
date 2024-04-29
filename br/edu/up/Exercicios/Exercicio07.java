@@ -1,16 +1,19 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
+
 import java.util.Scanner;
+import br.edu.up.modelos.Fabrica;
 
-import br.edu.up.Modelos.Fabrica;
-public class Exercicio07{
-    public static void executar(){
-     Scanner leitor = new Scanner(System.in);
+public class Exercicio07 {
+    public static void executar() {
+        Scanner leitor = new Scanner(System.in);
+        Fabrica fabrica = new Fabrica();
 
-     System.out.println("Digite o custo de fabrica do carro: ");
-     double custo=leitor.nextDouble();    
-     double custoTotal= Fabrica.calculaCunsumidor(custo);
-     System.out.println("O valor da venda é:  "+custoTotal);
+        System.out.println("Digite o custo de fabrica do carro: ");
+        double custo = leitor.nextDouble();
 
+        fabrica.setCusto(custo);
+        System.out.println("O valor da venda é:  " + fabrica.calculaConsumidor());
 
-leitor.close();}
+        leitor.close();
+    }
 }

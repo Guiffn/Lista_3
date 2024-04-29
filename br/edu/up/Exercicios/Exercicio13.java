@@ -1,7 +1,7 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
 import java.util.Scanner;
 
-import br.edu.up.Modelos.Perfil;
+import br.edu.up.modelos.Perfil;
 public class Exercicio13{
     public static void executar(){
      Scanner leitor = new Scanner(System.in);

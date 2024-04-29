@@ -1,12 +1,12 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
 import java.util.Scanner;
 
-import br.edu.up.Modelos.Abono;
+import br.edu.up.modelos.Abono;
 public class Exercicio18{
     public static void executar(){
-        Abono abono=new Abono();
-     Scanner leitor = new Scanner(System.in);
-     
+      
+    Scanner leitor = new Scanner(System.in);
+    Abono abono=new Abono();
     
      System.out.println("Digite o nome: ");
      String nome=leitor.nextLine();

@@ -1,6 +1,7 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Ideal {
-public double pesoIdeal;
+private double pesoIdeal;
+
 public void calcularIdeal(String nome,String sexo,double altura, int idade){
     if (sexo.equalsIgnoreCase("M")) {
         if (altura > 1.70) {
@@ -31,5 +32,13 @@ public void calcularIdeal(String nome,String sexo,double altura, int idade){
     System.out.println("Nome: " + nome);
     System.out.println("Peso ideal: " + pesoIdeal + " kg");
 
+ }
+
+public double getPesoIdeal() {
+    return pesoIdeal;
+ }
+
+public void setPesoIdeal(double pesoIdeal) {
+    this.pesoIdeal = pesoIdeal;
  }
 }

@@ -1,8 +1,7 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class Perfil {
     private int apto=0;
     private int inapto=0;
-
 
 
 

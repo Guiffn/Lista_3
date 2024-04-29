@@ -1,22 +1,24 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
+
 import java.util.Scanner;
+import br.edu.up.modelos.CalculadoraHM;
 
-import br.edu.up.Modelos.CalculadoraHM;
-public class Exercicio11{
-    public static void executar(){
-     Scanner leitor = new Scanner(System.in);
-         CalculadoraHM calculadoraHM= new CalculadoraHM();
+public class Exercicio11 {
+    public static void executar() {
+        Scanner leitor = new Scanner(System.in);
+        CalculadoraHM calculadoraHM = new CalculadoraHM();
+        String nome[] = new String[5];
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Digite o nome da pessoa");
+            nome[i] = leitor.nextLine();
 
-        for (int i = 0; i < 56;i++) {
-            System.out.print("Digite o nome da pessoa: ");
-            String nome= leitor.nextLine();
-            System.out.print("Digite se a pessoa é homem ou mulher. ");
-            String sexo= leitor.nextLine();
-            
-            calculadoraHM.adicionarSexos(sexo);  
+            System.out.println("Digite o sexo dessa pessoa (H/M)");
+            String sexo = leitor.nextLine();
+            calculadoraHM.contarSexos(sexo);
         }
-            calculadoraHM.exibirTotal();
+        calculadoraHM.exibirNome(nome);
+        calculadoraHM.exibirTotal();
 
-
-leitor.close();}
+        leitor.close();
+    }
 }

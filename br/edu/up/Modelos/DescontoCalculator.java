@@ -1,4 +1,4 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class DescontoCalculator {
     public static double calcularDesconto(int ano) {
         if (ano <= 2000) {

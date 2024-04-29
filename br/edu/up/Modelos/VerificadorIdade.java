@@ -1,4 +1,4 @@
-package br.edu.up.Modelos;
+package br.edu.up.modelos;
 public class VerificadorIdade {
         public void verificarIdade(int idade) {
             if (idade >= 18) {

@@ -1,7 +1,7 @@
-package br.edu.up.Exercicios;
+package br.edu.up.exercicios;
 import java.util.Scanner;
 
-import br.edu.up.Modelos.Ideal;
+import br.edu.up.modelos.Ideal;
 public class Exercicio23{
     public static void executar(){
      Scanner leitor = new Scanner(System.in);
@@ -15,7 +15,8 @@ public class Exercicio23{
       int idade=leitor.nextInt();
       System.out.println("Digite a altura:");
       double altura=leitor.nextDouble();
-        Ideal.calcularIdeal(nome, sexo, altura, idade);
+
+      Ideal.calcularIdeal(nome, sexo, altura, idade);
       
      
 leitor.close(); } 
